@@ -1,0 +1,7 @@
+{
+  "extends": "@blumoon/eslint-config-blumoon",
+  "rules": {
+    "@hapi/hapi/capitalize-modules": "off",
+    "require-atomic-updates": "off"
+  }
+}

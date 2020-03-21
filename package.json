@@ -1,0 +1,34 @@
+{
+  "name": "phcovid19",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "bin": {
+    "phcovid19": "./bin/phcovid19"
+  },
+  "dependencies": {
+    "jsdom": "16.x"
+  },
+  "devDependencies": {
+    "coveralls": "3.x",
+    "@hapi/lab": "22.x",
+    "@hapi/code": "8.x",
+    "@blumoon/eslint-config-blumoon": "*"
+  },
+  "scripts": {
+    "test": "lab -v -c -L -m 6000 -a @hapi/code",
+    "test-cover": "lab -c -v -L -m 6000 -a @hapi/code -r html -o ./coverage.html -L && open ./coverage.html",
+    "prepublishOnly": "npm run test"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "Just another COVID19 tracker",
+  "repository": "git://github.com/genediazjr/phcovid19",
+  "bugs": "https://github.com/genediazjr/phcovid19/issues",
+  "license": "MIT",
+  "keywords": [
+    "ph",
+    "covid19"
+  ]
+}
