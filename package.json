@@ -15,8 +15,8 @@
     "@blumoon/eslint-config-blumoon": "*"
   },
   "scripts": {
-    "test": "lab -v -c -L -m 6000 -a @hapi/code",
-    "test-cover": "lab -c -v -L -m 6000 -a @hapi/code -r html -o ./coverage.html -L && open ./coverage.html",
+    "test": "lab -v -c -L -m 20000 -a @hapi/code",
+    "test-cover": "lab -c -v -L -m 20000 -a @hapi/code -r html -o ./coverage.html -L && open ./coverage.html",
     "prepublishOnly": "npm run test"
   },
   "engines": {
