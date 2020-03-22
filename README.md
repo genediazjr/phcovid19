@@ -26,7 +26,7 @@ $ npm install -g phcovid19
 $ phcovid19 stats.json
 ```
 
-### Source
+### Data Source
 DOH COVID19 Case Tracker [https://www.doh.gov.ph/2019-nCoV](https://www.doh.gov.ph/2019-nCoV)
 
 ### Contributing
