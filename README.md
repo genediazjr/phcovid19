@@ -30,5 +30,5 @@ $ phcovid19 stats.json
 DOH COVID19 Case Tracker [https://www.doh.gov.ph/2019-nCoV](https://www.doh.gov.ph/2019-nCoV)
 
 ### Contributing
-* Include 100% test coverage and no eslint issue.
+* Include at least 90% test coverage :sweat_smile: and no eslint issue.
 * Submit an issue first for significant changes.
