@@ -3,15 +3,13 @@
 [![Coverage Status](https://coveralls.io/repos/github/genediazjr/phcovid19/badge.svg)](https://coveralls.io/github/genediazjr/phcovid19)
 [![NPM Version](https://badge.fury.io/js/phcovid19.svg)](https://www.npmjs.com/phcovid19)
 [![NPM Downloads](https://img.shields.io/npm/dt/phcovid19.svg?maxAge=2592000)](https://www.npmjs.com/phcovid19)<br>
-[![Dependency Status](https://david-dm.org/genediazjr/phcovid19.svg)](https://david-dm.org/genediazjr/phcovid19)
+[![dependencies Status](https://david-dm.org/genediazjr/phcovid19/status.svg)](https://david-dm.org/genediazjr/phcovid19)
+[![devDependencies Status](https://david-dm.org/genediazjr/phcovid19/dev-status.svg)](https://david-dm.org/genediazjr/phcovid19?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/genediazjr/phcovid19/badge.svg)](https://snyk.io/test/github/genediazjr/phcovid19)
 
 Yet another PH COVID19 Stat Generator
 
-### Usage
-```sh
-$ npm install phcovid19
-```
+### Programmatically
 ```js
 const phcovid19 = require('phcovid19');
 
@@ -25,7 +23,7 @@ const phcovid19 = require('phcovid19');
 ### Command Line
 ```sh
 $ npm install -g phcovid19
-$ phcovid19 test.json
+$ phcovid19 stats.json
 ```
 
 ### Source
