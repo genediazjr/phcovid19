@@ -7,6 +7,8 @@
 [![devDependencies Status](https://david-dm.org/genediazjr/phcovid19/dev-status.svg)](https://david-dm.org/genediazjr/phcovid19?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/genediazjr/phcovid19/badge.svg)](https://snyk.io/test/github/genediazjr/phcovid19)
 
+# !!!DEPRECATED!!!
+
 Yet another PH COVID19 Stat Generator
 
 ### Programmatically
